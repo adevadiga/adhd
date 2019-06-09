@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinTimeRequired",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searchingQ.MinTimeRequired",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pairs",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searchingQ.Pairs",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvertTree",
+            "request": "launch",
+            "mainClass": "com.adhd.treesQ.InvertTree",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvertTree",
+            "request": "launch",
+            "mainClass": "com.adhd.trees.InvertTree",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashTableIceCream",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searchingQ.HashTableIceCream",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashTableIceCream",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searching.HashTableIceCream",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashTableIceCreamP",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searching.HashTableIceCreamP",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxMin",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.greedyAlgo.MaxMin",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LuckBalance",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.greedyAlgo.LuckBalance",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinAbsoluteDiff",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.greedyAlgo.MinAbsoluteDiff",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinAbsoluteDiff",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.greedy.MinAbsoluteDiff",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CommonChild",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stringsq.CommonChild",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpecialPalindrome",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stringsq.SpecialPalindrome",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SherlockAndString",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stringsq.SherlockAndString",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlternatingChars",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stringsq.AlternatingChars",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakingAnagrams",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stringsq.MakingAnagrams",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakingAnagrams",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.strings.MakingAnagrams",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSortCountInversion",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.MergeSortCountInversion",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FuckingMergeSort",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.FuckingMergeSort",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MovingAverage",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.MovingAverage",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MarkAndToys",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.MarkAndToys",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FuckFoo",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.FuckFoo",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort2",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sorting.BubbleSort2",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort2",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sort.BubbleSort2",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BubbleSort",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.sort.BubbleSort",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FrequencyQueries",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.maps.FrequencyQueries",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountTriplets",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.maps.CountTriplets",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anagrams",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.maps.Anagrams",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RansomNote",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.maps.RansomNote",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RansomNote",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.mapsAndDictionaries.RansomNote",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeftRotation",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.arrays.LeftRotation",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NewYearChaos",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.arrays.NewYearChaos",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumSwaps",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.arrays.MinimumSwaps",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamTest",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.feature.StreamTest",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamTestMy",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.java8.StreamTestMy",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamTest",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.java8.StreamTest",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayManipulation",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.arrays.ArrayManipulation",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RepeatedString",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.warmup.RepeatedString",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JumpingOnClouds",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.warmup.JumpingOnClouds",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SockMerchant",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.warmup.SockMerchant",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Abbreviation",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.dp.Abbreviation",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<adhd-app>",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.App",
+            "projectName": "adhd-app"
+        }
+    ]
+}
