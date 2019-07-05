@@ -25,8 +25,9 @@ In summary, script resources can be streaming-parsed and-compiled on a worker th
     * Streaming starts once the full HTML parser encounters a <script> tag. For parser-blocking scripts, the HTML parser yields, while for async scripts it continues.
     * For most real-world connection speeds, V8 parses faster than download, so V8 is done parsing compiling a few milliseconds after the last script bytes are downloaded.
 
-    The not-so-short explanation is… Much older versions of Chrome would download a script in full before beginning to parse it, which is a straightforward approach but it doesn’t fully utilize the CPU. Between versions 41 and 68, Chrome started parsing async and deferred scripts on a separate thread as soon as the download begins.
+  The not-so-short explanation is… Much older versions of Chrome would download a script in full before beginning to
+  parse it, which is a straightforward approach but it doesn’t fully utilize the CPU. Between versions 41 and 68, Chrome started parsing async and deferred scripts on a separate thread as soon as the download begins.
 
-    Scripts arrive in multiple chunks. V8 starts streaming once it’s seen at least 30 kB.
+Scripts arrive in multiple chunks. V8 starts streaming once it’s seen at least 30 kB.
 
 
