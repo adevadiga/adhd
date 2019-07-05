@@ -1,11 +1,11 @@
 package com.adhd.treesQ;
 
 class Node {
-    int val;
+    int data;
     Node left;
     Node right;
     Node(int x) { 
-        val = x; 
+        data = x; 
     }
 }
 public class SwapTree {

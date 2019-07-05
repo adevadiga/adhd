@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StairCase",
+            "request": "launch",
+            "mainClass": "com.adhd.recursionBackTrack.StairCase",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FibNumbers",
+            "request": "launch",
+            "mainClass": "com.adhd.recursionBackTrack.FibNumbers",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FibNumbers",
+            "request": "launch",
+            "mainClass": "com.adhd.recursionAndBackTracking.FibNumbers",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergePointOfTwoLists",
+            "request": "launch",
+            "mainClass": "com.adhd.linkedlist.MergePointOfTwoLists",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsertNodeToSortedDoubleLinkedList",
+            "request": "launch",
+            "mainClass": "com.adhd.linkedlist.InsertNodeToSortedDoubleLinkedList",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HeightOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.adhd.treesQ.HeightOfBinaryTree",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinMaxRiddle",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stacksAndQus.MinMaxRiddle",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LargestRectangle",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stacksAndQus.LargestRectangle",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BalancedBrackets",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stacksAndQus.BalancedBrackets",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BalancedBrackets",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.stacksAndQs.BalancedBrackets",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ImpMaxArraySum",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.dp.ImpMaxArraySum",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxSubArraySums",
+            "request": "launch",
+            "mainClass": "com.adhd.algo.searchingQ.MaxSubArraySums",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinTimeRequired",
             "request": "launch",
             "mainClass": "com.adhd.algo.searchingQ.MinTimeRequired",
