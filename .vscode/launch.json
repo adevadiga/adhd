@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RecursiveDigitSum",
+            "request": "launch",
+            "mainClass": "com.adhd.recursionBackTrack.RecursiveDigitSum",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StairCase",
             "request": "launch",
             "mainClass": "com.adhd.recursionBackTrack.StairCase",
