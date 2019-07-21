@@ -15,4 +15,5 @@ Creational Design Patterns
         6. Singleton
 
 
+https://github.com/kamranahmedse/design-patterns-for-humans#-command
 
