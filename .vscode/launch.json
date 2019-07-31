@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Chapter1",
+            "request": "launch",
+            "mainClass": "com.adhd.Chinni.Chapter1",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadDump",
+            "request": "launch",
+            "mainClass": "com.adhd.Shits.ReadDump",
+            "projectName": "adhd-app"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RecursiveDigitSum",
             "request": "launch",
             "mainClass": "com.adhd.recursionBackTrack.RecursiveDigitSum",
