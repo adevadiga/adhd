@@ -111,8 +111,10 @@ let b = 1;
 ```
 The example above may look a bit confusing, but it is actually a TDZ violation too -- that is because default parameters are evaluated in an intermediate scope which exists between the parent and inner scope of the given function. The a and b parameters are bindings of this (intermediate) scope and are initialized from left to right, hence when a's initializer tries to read b, the b identifier resolves to the b binding in the current scope (the intermediate scope) which is uninitialized at that point and thus throws a ReferenceError due to the TDZ semantics.
 
+As another example, subclasses (created with class x extends y {})'s constructors that try to access this before calling the super constructor will throw a TDZ ReferenceError. That is because as long as a subclass's constructor has not yet called super() its this binding is considered uninitialized. $$ANOOP$$
 
-As another example, subclasses (created with class x extends y {})'s constructors that try to access this before calling the super constructor will throw a TDZ ReferenceError. That is because as long as a subclass's constructor has not yet called super() its this binding is considered uninitialized.
 Likewise, if a subclass constructor execution reaches the end of the constructor code without calling super(), the constructor would (like any other constructor) implicitly try to return this;, which would then throw a TDZ ReferenceError as this is still uninitialized.
+
+https://javascript.info/constructor-new
 
 Reference: ES6 super construct proposal. (note, though, that this proposal is only two weeks old at the time of writing, so it may be changed or discarded altogether from the final ES2015 spec.)
