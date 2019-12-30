@@ -6,6 +6,55 @@
     "configurations": [
       {
         "type": "java",
+        "name": "CodeLens (Launch) - MaxProductOf2IntegersinArray",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.MaxProductOf2IntegersinArray",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - MaxLengthSequencyByReplacingZero",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.MaxLengthSequencyByReplacingZero",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - DutchNationalFlagProblem",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.DutchNationalFlagProblem",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - FindMaximumLengthSubArrayHavingEqualNumberOf0sand1s",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.FindMaximumLengthSubArrayHavingEqualNumberOf0sand1s",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - FindLongestConsecutiveSubsequence",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.FindLongestConsecutiveSubsequence",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - FindLargestSubarrayByConsecutiveIntegers",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.FindLargestSubarrayByConsecutiveIntegers",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - FindAllDuplicatesInArray",
+        "request": "launch",
+        "mainClass": "com.algo.top.arrays.FindAllDuplicatesInArray",
+        "projectName": "top-questions"
+      },
+      {
+        "type": "java",
         "name": "CodeLens (Launch) - SortBinaryArray",
         "request": "launch",
         "mainClass": "com.algo.top.arrays.SortBinaryArray",

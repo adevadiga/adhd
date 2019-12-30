@@ -2,8 +2,8 @@ package com.adhd.treesQ;
 
 class TreeNode {
     int val;
-    TreeNode left;
-    TreeNode right;
+    TreeNodeP left;
+    TreeNodeP right;
     TreeNode(int x) { 
         val = x; 
     }
@@ -11,11 +11,11 @@ class TreeNode {
 }
 public class InvertTree {
 
-    public static TreeNode invertTree(TreeNode root) {
+    public static TreeNodeP invertTree(TreeNodeP root) {
         return invert(root);
     }
 
-    static TreeNode invert(TreeNode root) {
+    static TreeNodeP invert(TreeNodeP root) {
         if (root != null) {
             swap(root);
             invert(root.left);
@@ -24,14 +24,14 @@ public class InvertTree {
         return root;
     }
 
-    static void swap(TreeNode node) {
-        TreeNode leftSubTree = node.left;
-        TreeNode rightSubTree = node.right;
+    static void swap(TreeNodeP node) {
+        TreeNodeP leftSubTree = node.left;
+        TreeNodeP rightSubTree = node.right;
         node.left = rightSubTree;
         node.right = leftSubTree;
     }
 
-    static void traverse(TreeNode root) {
+    static void traverse(TreeNodeP root) {
         if (root != null) {
             traverse(root.left);
             System.out.print(root.val + ", ");
@@ -40,15 +40,15 @@ public class InvertTree {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(4);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(7);
+        TreeNodeP root = new TreeNodeP(4);
+        root.left = new TreeNodeP(2);
+        root.right = new TreeNodeP(7);
 
-        root.left.left = new TreeNode(1);
-        root.left.right = new TreeNode(3);
+        root.left.left = new TreeNodeP(1);
+        root.left.right = new TreeNodeP(3);
 
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(9);
+        root.right.left = new TreeNodeP(6);
+        root.right.right = new TreeNodeP(9);
 
         traverse(root);
         invertTree(root);

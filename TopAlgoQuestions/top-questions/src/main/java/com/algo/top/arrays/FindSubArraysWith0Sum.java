@@ -28,7 +28,7 @@ public class FindSubArraysWith0Sum {
   // O(n) via hashMap
   /*
   The idea behind this approach is as follows: 
-  If the cumulative sum(represanted by sum[i], sum[i] for sum upto ith & jth
+  If the cumulative sum(represented by sum[i], sum[j] for sum upto ith & jth
   index) upto two indices is the same,
    the sum of the elements lying in between those indices is zero. 
 

@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class LowestCommonAncestor2 {
 
-    TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    TreeNodeP commonAncestor(TreeNodeP root, TreeNodeP p, TreeNodeP q) {
         /* Error check - one node is not in the tree. */
         if (!covers(root, p) || !covers(root, q)) {
             return null;
@@ -19,7 +19,7 @@ public class LowestCommonAncestor2 {
         return commonAncestorHelper(root, p, q);
     }
 
-    TreeNode commonAncestorHelper(TreeNode root, TreeNode p, TreeNode q) {
+    TreeNodeP commonAncestorHelper(TreeNodeP root, TreeNodeP p, TreeNodeP q) {
         if (root == null || root == p || root == q) {
             return root;
         }
@@ -31,11 +31,11 @@ public class LowestCommonAncestor2 {
             return root;
         }
 
-        TreeNode childSide = pIsOnLeft ? root.left : root.right;
+        TreeNodeP childSide = pIsOnLeft ? root.left : root.right;
         return commonAncestorHelper(childSide, p, q);
     }
 
-    boolean covers(TreeNode root, TreeNode p) {
+    boolean covers(TreeNodeP root, TreeNodeP p) {
         if (root == null) return false;
         if (root == p) return true;
 
